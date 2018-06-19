@@ -1,0 +1,65 @@
+
+/*
+create table numerai_train
+(
+    id varchar,
+    era varchar,
+    data_type varchar,
+    feature1 varchar,
+    feature2 varchar,
+    feature3 varchar,
+    feature4 varchar,
+    feature5 varchar,
+    feature6 varchar,
+    feature7 varchar,
+    feature8 varchar,
+    feature9 varchar,
+    feature10 varchar,
+    feature11 varchar,
+    feature12 varchar,
+    feature13 varchar,
+    feature14 varchar,
+    feature15 varchar,
+    feature16 varchar,
+    feature17 varchar,
+    feature18 varchar,
+    feature19 varchar,
+    feature20 varchar,
+    feature21 varchar,
+    feature22 varchar,
+    feature23 varchar,
+    feature24 varchar,
+    feature25 varchar,
+    feature26 varchar,
+    feature27 varchar,
+    feature28 varchar,
+    feature29 varchar,
+    feature30 varchar,
+    feature31 varchar,
+    feature32 varchar,
+    feature33 varchar,
+    feature34 varchar,
+    feature35 varchar,
+    feature36 varchar,
+    feature37 varchar,
+    feature38 varchar,
+    feature39 varchar,
+    feature40 varchar,
+    feature41 varchar,
+    feature42 varchar,
+    feature43 varchar,
+    feature44 varchar,
+    feature45 varchar,
+    feature46 varchar,
+    feature47 varchar,
+    feature48 varchar,
+    feature49 varchar,
+    feature50 varchar,
+    target varchar
+) */
+
+ copy numerai_test from '/tmp/numerai_tournament_data.csv' DELIMITER ',' CSV HEADER;
+
+
+select * 
+from numerai_train

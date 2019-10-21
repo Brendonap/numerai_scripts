@@ -32,6 +32,6 @@ six==1.11.0
 sklearn==0.0
 subprocess32==3.5.1
 tqdm==4.23.3
-urllib3==1.22
+urllib3==1.24.2
 wrapt==1.10.11
 xgboost==0.71
